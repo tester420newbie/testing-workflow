@@ -1,0 +1,23 @@
+if there U in front of any file name it mean its a untraced file 
+we have to git add to know how may time changes has been done in it 
+
+Commit :
+we add it into a staging environment : 
+it is a temprary environment where we put the code 
+
+now we rename our branch into main
+
+then we add it to destination url 
+
+if we write  . only after add it will all files or if we write name then it will addd that file only
+
+
+if there m in front of file it mean the file is modified but not added
+
+while pushing its important to leave a messege by -m
+
+if we dont want to select a file with . we add it to git ignore folder :
+that we create directly in git 
+we write the file name in :
+bite compilied / optimized / Dll file 
+like : file name /
