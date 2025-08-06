@@ -1,0 +1,90 @@
+🤖 What is MLOps?
+MLOps (Machine Learning Operations) is the practice of automating and managing the end-to-end lifecycle of machine learning projects, just like DevOps for software engineering.
+
+Think of it as the bridge between model development and real-world deployment
+
+Phase	Involves
+Data Engineering	   |    Collecting, cleaning, and versioning datasets
+Model Development	   |    Training models, tuning hyperparameters
+Model Validation	   |    Ensuring models work properly (testing, metrics)
+CI/CD	Automating     |    testing and deployment with tools like GitHub Actions, Jenkins
+Deployment	Making     |     the model available via APIs (Flask, FastAPI, etc.)
+Monitoring	Tracking   |     model accuracy, latency, drift, usage
+Retraining Pipelines   |    Automatically retraining models with new data
+
+⚙️ Tools Used in MLOps
+Step	            |   Tools/Libraries
+Data Versioning	    |   DVC, LakeFS, Delta Lake
+Model Tracking	    |   MLflow, Weights & Biases
+Deployment	        |   Flask, FastAPI, Docker, Kubernetes
+CI/CD Pipelines	    |   GitHub Actions, Jenkins, CircleCI
+Monitoring   	    |   Prometheus, Grafana, Sentry
+Cloud Platforms	    |   AWS, GCP, Azure, Vertex AI
+
+🧠 Why MLOps is Important
+Without MLOps:
+
+Code and models become hard to reproduce
+
+Deployments are manual, error-prone, and slow
+
+It's hard to track performance and detect when models fail or drift
+
+With MLOps:
+
+Teams ship models faster with fewer bugs
+
+You can automate testing, deployment, and monitoring
+
+You create scalable, repeatable, and reliable ML systems
+
+
+⚙️ What Are CI/CD Pipelines?
+TermStands For	Meaning
+CI:	Continuous Integration	Automatically test and combine new code changes
+
+CD: Continuous Delivery / Deployment	Automatically deploy tested code to production
+
+✅ In simple words:
+CI/CD pipelines automate everything from code commit to deployment, so you don’t have to do it manually every time.
+
+🧱 Example: CI/CD in a Machine Learning Project
+Let’s say you have a Flask app serving a machine learning model.
+
+Here’s what CI/CD does:
+
+🔹 1. CI (Continuous Integration)
+When you push your code to GitHub:
+
+✅ Code is automatically tested (e.g., using pytest)
+
+✅ Model or app is linted (checked for errors)
+
+✅ A Docker image is built
+
+🔹 2. CD (Continuous Deployment)
+If the tests pass:
+
+✅ The Flask app is deployed to a server or cloud (like Render, Heroku, AWS)
+
+✅ Or, the Docker image is pushed to DockerHub
+
+🧰 Tools Used in CI/CD
+Tool	Role
+GitHub Actions	Automate testing, building, and deployment when you git push
+Jenkins	More customizable CI/CD system
+Docker	Package your app into a consistent environment
+Heroku / Render / AWS	Host your app automatically
+Kubernetes	For scaling and advanced orchestration
+
+GitHub Actions is a built-in automation tool in GitHub that helps you automatically run tasks like:
+
+Testing code
+
+Building Docker images
+
+Deploying apps
+
+Running CI/CD pipelines
+
+All of this happens whenever you push code to GitHub, open a pull request, or trigger a custom event.

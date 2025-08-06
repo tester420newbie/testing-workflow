@@ -1,0 +1,120 @@
+Github is code repository that we use to work in collarative way
+Git it is distributed version control system :
+here we able to track source code file 
+
+
+
+
+|----------------------|
+|                      |
+|      Project         | <dev 1 |
+|                      | <dev 2 |-- working in a collabrative way
+|                      | <dev 3 |
+|                      |
+|----------------------| 
+                        
+switch braches and merging branches we use git
+
+git hub action are ci | cd tool
+
+countinous integration and countinous deployment 
+
+
+eg a machine learning project 
+story a   
+story b   
+story c    
+
+                        
+                    |-------------------------------|
+[ Git repo ] <--->[Dev]-->[Quality Assurance] --> [ User Acceptance Testing]-->[production]
+
+
+
+
+
+WOrks flows : a developer work flow refers to the series of steps , practices and tools that a developer of a team of developers follows to write , test , collaborate and deployment efficently
+
+
+Keys steps :
+1 > coding : vs code etc : python , java etc : coding standard , best practice 
+
+2 > Version control : Git : manage the code base : allow multiple devloper to collab
+.commit 
+.branches 
+.push
+.pull
+.resolve conflict
+
+3> code review :help to improve code quality 
+
+4> testing 
+.automated testing 
+1.unit testing
+2.integrated testing
+3.end to end testing
+
+5> Countinous integration (CI) : 
+building ,testing , notified , fixing
+
+6>Countinues deveploment 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ cx 
+
+
+
+
+
+
+ cx 
