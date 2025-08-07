@@ -21,3 +21,19 @@ that we create directly in git
 we write the file name in :
 bite compilied / optimized / Dll file 
 like : file name /
+
+
+A README.md is a text file (written in Markdown) that explains what your project is about.
+
+
+
+Branching system
+git branch : to check how many branches 
+and if we add name in front of it will create a branch 
+
+git checkout developera mean switching to that branch her it is developera
+
+to merge we use git merge branch name 
+
+
+
